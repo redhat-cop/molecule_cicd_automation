@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include molecule_cicd_automation"
+      include_role:
+        name: "molecule_cicd_automation"
