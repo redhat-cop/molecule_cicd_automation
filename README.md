@@ -1,38 +1,53 @@
-Role Name
-=========
+# Redhat Communties of Practice Molecule Template
 
-A brief description of the role goes here.
+![Ansible Lint](https://github.com/redhat-cop/molecule_cicd_automation/workflows/Ansible%20Lint/badge.svg)
+![Galaxy Release](https://github.com/redhat-cop/molecule_cicd_automation/workflows/galaxy-release/badge.svg)
+<!-- Further CI badges go here as above -->
 
-Requirements
-------------
+This Ansible collection allows for 
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+## Included content
 
-Role Variables
---------------
+Click the `Content` button to see the list of content included in this collection.
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+## Installing this collection
 
-Dependencies
-------------
+You can install the redhat_cop molecule_cicd_automation collection with the Ansible Galaxy CLI:
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+    ansible-galaxy collection install redhat_cop.molecule_cicd_automation
 
-Example Playbook
-----------------
+You can also include it in a `requirements.yml` file and install it with `ansible-galaxy collection install -r requirements.yml`, using the format:
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+```yaml
+---
+collections:
+  - name: redhat_cop.molecule_cicd_automation
+    # If you need a specific version of the collection, you can specify like this:
+    # version: ...
+```
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+## Using this collection
 
-License
--------
 
-BSD
 
-Author Information
-------------------
+```
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+### See Also:
+
+* [Ansible Using collections](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html) for more details.
+
+## Release and Upgrade Notes
+
+## Roadmap
+
+
+## Contributing to this collection
+
+We welcome community contributions to this collection. If you find problems, please open an issue or create a PR against the [Tower Configuration collection repository](https://github.com/redhat-cop/molecule_cicd_automation).
+More information about contributing can be found in our [Contribution Guidelines.](https://github.com/redhat-cop/molecule_cicd_automation/blob/devel/.github/CONTRIBUTING.md)
+
+## Licensing
+
+GNU General Public License v3.0 or later.
+
+See [LICENCE](https://www.gnu.org/licenses/gpl-3.0.txt) to see the full text.
